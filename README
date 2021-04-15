@@ -1,0 +1,23 @@
+-- This Rolemanage.php file should be uploaded in libraries Folder 
+-- This file contains some basic functions for role management in software 
+-- all functions have their default parameters (eg: table name , column name etc )
+it can be changed as per needed or can be passed as parameter while calling the functions.
+
+
+Explanation of Functions---------------------
+
+(1)------------------------------
+
+public function __construct($session){
+   error_reporting(0);
+   $CI = & get_instance(); //database
+}
+
+
+-- above code is the constructor which defines the databse in $CI  variable and error reporting is set to 0 it can be changed later.
+
+
+(2)------------------------------
+
+public function __set_RoleSession()
+
